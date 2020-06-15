@@ -1,0 +1,370 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color:#801113;
+}
+
+html
+{
+    scroll-behavior:smooth;
+    min-height: 100%;
+    position: relative;
+
+
+}
+
+body
+{
+    background-color: #F5D6C6;
+    margin:0;
+    height:100%;
+    padding-top:50px;
+}
+
+li{
+    float: left;
+    cursor:pointer;
+}
+
+#navbar
+{
+
+
+    background-color: #212121;
+    position: fixed;
+    top:0;
+    width:100%;
+    display: inline-block;
+    z-index:2;
+
+
+}
+
+.bg
+{
+
+    float:right;
+    width:50px;
+
+
+}
+.uk
+{
+    float: right;
+    width:40px;
+}
+
+.uk:hover
+{
+    cursor:pointer;
+}
+
+.bg:hover
+{
+    cursor: pointer;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+
+}
+a:active
+{
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.aftenav
+{
+    background-color:#801113;
+    color:white;
+    padding:3px;
+    margin:auto;
+    width:60%;
+    z-index:1;
+    text-align: center;
+    margin-bottom:3px;
+
+}
+
+h3{
+    text-align:right;
+}
+.menu,.menu1,.menu2,.menu3,.menu4,.distance1{
+
+    float: left;
+    width: 19.6%;
+
+
+}
+.menu
+{
+padding:10px;
+    position:fixed;
+    float:left;
+}
+
+.distance1
+{
+    background-color: #F5D6C6;
+    color:#F5D6C6;
+}
+
+
+.button
+{   overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #801113;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin-bottom:10px;
+    width:100%;
+}
+
+.button:active {
+    background-color:#801113;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
+
+.distance
+{
+    float:left;
+    width:0.4%;
+    background-color: #F5D6C6;
+    color:#F5D6C6;
+}
+
+img
+{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    width:100%;
+    border-radius:2%;
+
+
+}
+
+.one
+{
+    padding-bottom:10px;
+}
+
+.main,.main1,.main2,.main3,.main4{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color:#801113;
+    color:white;
+    border-radius:8px;
+
+}
+
+.right,.right1,.right2,.right3,.right4{
+
+    padding:10px 15px;
+    background-color:#F5D6C6;
+    float: left;
+    width: 19.6%;
+    height:50%;
+
+}
+
+#non
+{
+    padding:10px 15px;
+
+}
+.help
+{
+    font-size: 14px;
+    text-align: center;
+    background-color: #801113;
+    color:white;
+}
+.help1
+{
+    text-align: center;
+}
+.foot
+{
+    position:absolute;
+    background-color:#801113;
+    text-align: center;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+
+.fb
+{
+ float:right;
+    width:50px;
+    height:50px;
+}
+.tw
+{
+float:right;
+    width:50px;
+    height:50px;
+}
+
+
+@media only screen and (max-width:800px) {
+
+    .main,.main1,.main2,.main3,.main4{
+        width: 80%;
+        padding: 0;
+
+    }
+    .right{
+        width: 100%;
+        margin:0px;
+    }
+
+    .menu4
+    {
+        height:1px;
+        width:100%;
+    }
+    .menu3
+    {
+        height:1px;
+        width:100%;
+    }
+    .menu2
+    {
+        height:1px;
+       width:100%;
+
+    }
+    .menu1
+    {
+        height:1px;
+        width:100%;
+
+    }
+    .menu
+    {
+     position:relative;
+
+    }
+
+    #navbar
+    {
+        z-index:1;
+    }
+    .right1
+    {
+
+        width:100%;
+
+    }
+    .right2
+    {
+        width:100%;
+    }
+    .right3
+    {
+        width:100%;
+    }
+
+    .one{
+        width:100%;
+    }
+
+}
+@media only screen and (max-width:500px) {
+
+    .menu, .main,.main1,.main2,.main3,.main4,.right,.one{
+        width: 100%;
+        margin:0px;
+
+
+    }
+    img
+    {
+
+    }
+.menu
+{
+
+    position:relative;
+}
+#navbar
+{
+    z-index:1;
+}
+
+    .menu4
+    {
+        height:1px;
+        width:100%;
+    }
+
+    .menu3
+    {
+     height:1px;
+     width:100px;
+    }
+
+    .menu2
+    {
+
+        height:1px;
+       width:100px;
+
+
+    }
+    .menu1
+    {
+        height:1px;
+        width:100%;
+
+    }
+
+
+    .right1
+    {
+        width:100%;
+
+    }
+    .right2
+    {
+        width:0%;
+    }
+
+
+}
