@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+
+    <script  src="slider.js"></script>
+    <script  src="project.js"></script>
+
+</head>
+<body onload="start2()">
+
+
+<div id="navbar">
+    <ul>
+        <li class="l"><a onclick="tr()">Начало</a></li>
+
+        <li class="bg"><img src="bg.png" alt="bgFlag" onclick="tr()"></li>
+        <li class="uk"><img src="uk.png" alt="ukFlag" onclick="tr1()"></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="aftenav">
+    <h1 >Григор Димитров</h1>
+    <h3>Български професионален тенис състезател</h3>
+</div>
+
+<div class="big" style="overflow:auto; margin-bottom:3px;">
+    <div class="menu">
+        <button  id="fm1" class="button"  onclick="fmain1()">Ранен живот</button>
+        <button id="fm2" class="button"  onclick="fmain2()">Личен живот</button>
+        <button  id="fm3" class="button" onclick="fmain3()">Държавни отличия</button>
+        <button  id="fm4" class="button" onclick="fmain5()">Галерия</button>
+
+        <button class="button" onclick="to()" style="margin-top:50px">В начало на страницата</button>
+
+    </div>
+
+    <div class="distance1">
+        a
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div  class="main" >
+        <p id="MBG"></p>
+
+        <img class="one" src="Dimitrov2.jpeg" alt="picture">
+
+
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="right">
+
+
+
+        <button  id="fm5" class="button" onclick="sh()" >Показване на информация</button>
+        <div id="non" style="display:none">
+            <h2 class="help">Победи</h2>
+            <p class="help1">304</p>
+            <h2 class="help">Загуби</h2>
+            <p class="help1">201</p>
+            <h2 class="help">Парични печалби</h2>
+            <p class="help1">$18,277,092</p>
+        </div>
+
+    </div>
+</div>
+
+<div id="m1" style="overflow:auto; margin-bottom:3px;">
+    <div class="menu1" style="color:#F5D6C6;">
+        a
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+
+    <div class="main1" id="main1">
+        <h2>Ранен живот</h2>
+        <p >Григор е роден на 16 май 1991 г. в Хасково, България, като единствено дете на баща си Димитър Господинов Димитров, треньор по тенис,
+            и майка си Мария, спортна учителка и бивша волейболистка. За първи път хваща ракета, когато е на три години, а от 5-годишна възраст
+            започва да играе редовно в родния си град. В ранните му години за неговата подготовка се грижи баща му, но след като хасковлията доказва
+            таланта си на турнирите за юноши става ясно, че той ще трябва да се развива в други условия. Едва на 16 години Григор прави своя избор и се
+            отдава на професионалния спорт. Тогава пръв му протяга ръка Христо Стоичков, който по всякакъв
+            начин помага за развитието на неговата кариера. След това Гришо печели стипендия от фондацията на друга наша футболна звезда – Димитър Бербатов.</p>
+        <img class="one" src="Dimitrov1..jpg" alt="picture">
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+
+    <div class="right1" style="color:#F5D6C6;">
+        a
+    </div>
+
+</div>
+
+<div id="m2" style="overflow:auto; margin-bottom:3px;">
+    <div class="menu2" style="color:#F5D6C6;">
+        a
+
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="main2">
+        <h2>Личен живот</h2>
+        <p>В края на 2012 г. се появяват слухове за връзка между
+            Григор Димитров и руската тенисистка Мария Шарапова. Те потвърждават това на Мутуа Мадрид Оупън 2013, турнир в който Димитров
+            побеждава за пръв път в своята кариера тогавашния номер едно в световната ранглиста Новак Джокович. През юли 2015 г. двамата се разделят.
+            Според някои медии в края на 2015 г. Григор Димитров е започнал връзка с Никол Шерцингер. Информацията се потвърждава през следващата година.</p>
+        <img class="one" src="Dimitrov3.jpg" alt="picture">
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="right2" style="color:#F5D6C6; ">
+        a
+
+    </div>
+</div>
+
+
+
+
+<div id="m3" style="overflow:auto; margin-bottom:3px;">
+    <div class="menu3" style="color:#F5D6C6;">
+        a
+
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="main3">
+        <h2>Национални отличия</h2>
+        <h3 style="text-align:left">Купа Дейвис</h3>
+        <p> Димитров прави своят дебют за Купа Дейвис през 2008 година на 16 години.
+           Играещ преди родна публика в Пловдив,Григор прави рекорд от поредни победи и в двойки и сингли,за да
+            промотира България във втора дивизия на  зоната на Европа/Африка.
+            През февруари 2017 г. Григор Димитров е удостоен с медал „За специални заслуги към спорта и България“ от министъра на младежта и спорта.
+
+        <h3 style="text-align:left">Олимпиада</h3>
+        <p>Григор Димитров представя България на Олимпиадата в Лондон през 2012.
+           Той участва в турнира за сингли и побеждава в първи кръг поляка Лукащ Кубот.
+            След това във втори кръг е победен от  12тата "ракета" на Франция Жил Симон.
+        </p>
+        <img class="one" src="Dimitrov4.jpg" alt="picture">
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="right3" style="color:#F5D6C6;">
+        a
+
+    </div>
+</div>
+
+
+
+
+<div id="m4" style="overflow:auto; margin-bottom:100px;">
+    <div class="menu4" style="color:#F5D6C6;">
+        a
+
+    </div>
+
+    <div class="distance">
+        a
+    </div>
+    <div class="main4">
+        <h2>Галерия</h2>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade" style="margin-bottom:10px">
+                <div class="numbertext">1 / 4</div>
+                <img src="grigor5.jpg" style="width:100%" alt="grigor" >
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade" style="margin-bottom:10px">
+                <div class="numbertext">2 / 4</div>
+                <img src="grigor6.jpg" style="width:100%" alt="grigor">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade" style="margin-bottom:10px">
+                <div class="numbertext">3 / 4</div>
+                <img src="grigor7.jpg" style="width:100%" alt="grigor">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade" style="margin-bottom:10px">
+                <div class="numbertext">4 / 4 </div>
+                <img src="grigor8.jpg" style="width:100%" alt="grigor">
+                <div class="text"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="distance">
+        a
+    </div>
+    <div class="right4" style="color:#F5D6C6;">
+        a
+    </div>
+</div>
+
+
+
+<div class="foot">
+    <a href="https://www.facebook.com/grigordimitrovtennis/"> <img class="fb" src="fblogo.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/grigordimitrov/?hl=bg">  <img class="tw" src="instagram.png" alt="Instagram"> </a>
+
+
+</div>
+
+
+</body>
+</html>
